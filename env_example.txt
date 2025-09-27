@@ -1,0 +1,21 @@
+# Google Sheets Configuration
+INVENTORY_SPREADSHEET_ID=1IMcXLIyOJOANhfxKfzYlwtBqtsXJfRMhCPmoKQdCtdY
+MONITORS_SPREADSHEET_ID=1hI6WWiH03AvXFxMCpPpYtIhQEU062C_k4utIE6YyctY
+GOOGLE_CREDENTIALS_FILE=credentials.json
+
+# JIRA Configuration
+JIRA_BASE_URL=https://nubank.atlassian.net
+JIRA_EMAIL=seu-email@empresa.com
+JIRA_API_TOKEN=seu-token-aqui
+JIRA_PROJECT_KEY=TS
+
+# Application Settings
+APP_TITLE=Sistema de Controle de Perdas
+DEBUG=False
+TIMEZONE=America/Sao_Paulo
+
+# Database (se necessário)
+DATABASE_URL=sqlite:///data.db
+
+# Cache Settings
+CACHE_TTL=300
